@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
   res.render('home.hbs',{
     pageTitle: 'Home Page',
-    welcomeMessage: 'Welcome',
+    welcomeMessage: 'Welcome to my  website',
     currentYear: new Date().getFullYear(),
   });
 });
