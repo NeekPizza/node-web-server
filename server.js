@@ -3,7 +3,7 @@ const hbs = require('hbs');
 const fs = require('fs');
 
 // Heroku Port
-const port = process.env.Port || 3000;
+const port = process.env.PORT || 3000;
 
 // Register app as express
 var app = express();
